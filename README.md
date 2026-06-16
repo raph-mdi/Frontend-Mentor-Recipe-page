@@ -2,21 +2,21 @@
 
 > A responsive recipe page built with HTML and CSS as part of the Frontend Mentor challenge.
 
-## 🧑‍🍳 Aperçu du projet
+##  Aperçu du projet
 
 Page de recette d'omelette simple avec :
 - Structure HTML sémantique
 - Style CSS intégré
 - Design responsive
 
-## 🔧 Technologies utilisées
+##  Technologies utilisées
 
 | Technologie | Utilisation |
 |-------------|-------------|
 | **HTML5** | Structure et sémantique |
 | **CSS3** | Flexbox, couleurs HSL, mise en page |
 
-## 📝 Approche de développement
+## Approche de développement
 
 ### 1. Structure HTML
 - Utilisation de balises sémantiques : `<main>`, `<h1>`, `<h2>`, `<h3>`, `<ul>`, `<ol>`
@@ -34,7 +34,7 @@ Page de recette d'omelette simple avec :
 - Utilisation des couleurs HSL depuis le style-guide
 - Design en carte avec bord arrondi
 
-## 🎨 Couleurs utilisées
+##  Couleurs utilisées
 
 ```css
 --Stone-100: hsl(30, 54%, 90%)      /* Fond principal */
@@ -44,7 +44,7 @@ Page de recette d'omelette simple avec :
 --Rose-50: hsl(330, 100%, 98%)      /* Fond sections */
 ```
 
-## 📂 Structure
+##  Structure
 
 ```
 recipe-page-main/
@@ -56,6 +56,6 @@ recipe-page-main/
 └── style-guide.md      # Guide de style
 ```
 
-## 👤 Auteur
+##  Auteur
 
 - GitHub : [@rmArchiviste](https://github.com/rmArchiviste)
