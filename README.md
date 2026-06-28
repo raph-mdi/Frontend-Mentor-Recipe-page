@@ -55,6 +55,28 @@ recipe-page-main/
 ├── design/             # Fichiers de design
 └── style-guide.md      # Guide de style
 ```
+### Stratégie d'Adaptation Mobile et Nettoyage des Flux
+
+L'intégration responsive d'une page de contenu linéaire (comme cette fiche de recette) repose sur la libération des dimensions rigides imposées sur grand écran. Pour assurer une transition fluide vers les terminaux mobiles, la stratégie consiste à nettoyer les décalages du conteneur principal et à cibler précisément les éléments structurels majeurs :
+
+```css
+@media (max-width: 480px) and (min-width: 360px) {
+  main {
+    width: 100vw;           /* Transition vers une largeur fluide sur toute l'interface */
+    height: auto;      
+    margin-left: 0;         /* Annulation des décalages et marges fixes du desktop */
+    min-height: 100vh;  
+    padding: 10px; 
+    box-sizing: border-box; /* Neutralisation de l'impact du padding sur le modèle de boîte */
+  }
+
+  #recette {
+    width: 92%;             /* Redimensionnement adaptatif de la carte principale */
+    margin: 15px auto;      /* Centrage horizontal automatique par le navigateur */
+    padding: 15px; 
+    box-sizing: border-box;
+  }
+}
 
 ##  Auteur
 
